@@ -1,5 +1,3 @@
-package searching.linearsearch;
-
 public class SearchElementInArray {
 
     public static void main(String[] args) {
