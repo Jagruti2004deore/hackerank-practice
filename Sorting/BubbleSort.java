@@ -13,7 +13,7 @@ public class BubbleSort {
         boolean swapped;
         // run the steps n-1 times
         for (int i = 0; i<arr.length; i++){
-            swapped = true;
+            swapped = false;
 
             //for each step, max item will come at the last respective index
             for(int j = 1; j < arr.length - i; j++){
